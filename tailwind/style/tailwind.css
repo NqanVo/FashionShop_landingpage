@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.box-product{
+    @apply
+    shadow-lg overflow-hidden rounded-lg
+    md:hover:-translate-y-2
+    transition-all
+}
+
+.btn-primary{
+    @apply
+    px-5 py-3 bg-gradient-to-r from-red-500 to-pink-500 rounded-full text-white self-start mx-auto md:mx-0 hover:bg-gradient-to-r hover:from-red-600 hover:to-pink-600 transition-all
+}
+
+.btn-cart-product {
+    @apply 
+    flex 
+    flex-row 
+    items-center 
+    py-2 
+    px-4 
+    md:px-3 
+    lg:px-3 
+    justify-center
+    text-white 
+    bg-gradient-to-r 
+    from-red-500 
+    to-pink-500 
+    rounded-full 
+    hover:bg-gradient-to-r 
+    hover:from-red-600 
+    hover:to-pink-600 
+    transition-all;
+}
+
+.btn-detail-product {
+    @apply
+    flex 
+    flex-row 
+    items-center
+    py-2 
+    px-4 
+    md:px-3 
+    lg:px-3 
+    justify-center 
+    text-white
+    bg-purple-600 
+    rounded-full 
+    hover:bg-purple-800 
+    transition-all
+}
